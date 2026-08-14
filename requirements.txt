@@ -1,1 +1,5 @@
-pyTelegramBotAPI
+# ቦቱን ከመስራትዎ በፊት Webhook ያስወግዱ
+bot.remove_webhook()
+
+# infinity_polling በሚያደርጉበት ጊዜ skip_pending=True ይጠቀሙ
+bot.infinity_polling(skip_pending=True)pyTelegramBotAPI
